@@ -1,13 +1,13 @@
-import facade.BlenderFacade;
-import strategy.Grind;
-import strategy.Mix;
+import facade.WashingMachineFacade;
+import strategy.ToWash;
+import strategy.Dry;
 public class App {
     public static void main(String[] args) throws Exception {
-        BlenderFacade blenderInteraction = new BlenderFacade();
-        blenderInteraction.addingIngredients();
-        blenderInteraction.changeAction(new Grind());
-        blenderInteraction.turnOnBlender();
-        blenderInteraction.changeAction(new Mix());
-        blenderInteraction.turnOnBlender();
+        WashingMachineFacade wMachine = new WashingMachineFacade();
+        wMachine.addingWater();
+        wMachine.changeAction(new ToWash());
+        wMachine.turnOnMachine();
+        wMachine.changeAction(new Dry());
+        wMachine.turnOnMachine();
     }
 }
