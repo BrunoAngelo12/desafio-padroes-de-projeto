@@ -6,5 +6,6 @@ public class App {
         System.out.println(blender);
         blender = Blender.getInstance();
         System.out.println(blender);
+        blender.turnOn();
     }
 }
