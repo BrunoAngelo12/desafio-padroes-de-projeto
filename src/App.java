@@ -1,5 +1,6 @@
 import facade.WashingMachineFacade;
 import strategy.ToWash;
+import strategy.Centrifuge;
 import strategy.Dry;
 public class App {
     public static void main(String[] args) throws Exception {
@@ -8,6 +9,8 @@ public class App {
         wMachine.changeAction(new ToWash());
         wMachine.turnOnMachine();
         wMachine.changeAction(new Dry());
+        wMachine.turnOnMachine();
+        wMachine.changeAction(new Centrifuge());
         wMachine.turnOnMachine();
     }
 }
