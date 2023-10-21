@@ -1,19 +1,17 @@
 package singleton;
 
 import strategy.BlenderModes;
-import strategy.StandBy;
 
-public class Blender{
-    private static Blender instancia;
+public class BlenderSingleton{
+    private static BlenderSingleton instancia;
     private BlenderModes blenderModes;
 
-    private Blender(){
-        blenderModes = new StandBy();
+    private BlenderSingleton(){
     }
 
-    public static Blender getInstance(){
+    public static BlenderSingleton getInstance(){
         if(instancia == null){
-            instancia = new Blender();
+            instancia = new BlenderSingleton();
         }
         return instancia;
     }

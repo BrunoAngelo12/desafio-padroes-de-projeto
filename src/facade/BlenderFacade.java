@@ -1,13 +1,13 @@
 package facade;
 
-import singleton.Blender;
+import singleton.BlenderSingleton;
 import strategy.BlenderModes;
 
-public class InteractionBlender {
-    private Blender blender;
+public class BlenderFacade {
+    private BlenderSingleton blender;
 
-    public InteractionBlender(){
-        blender = Blender.getInstance();
+    public BlenderFacade(){
+        blender = BlenderSingleton.getInstance();
     }
 
     public void addingIngredients(){
