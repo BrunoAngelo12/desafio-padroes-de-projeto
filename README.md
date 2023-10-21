@@ -1,18 +1,17 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Padrões de Projetos - Desafio
 
-## Folder Structure
+Desafio da DIO para explorar a criação de um projeto usando os conceito de Padrões de Projeto 🗺️
 
-The workspace contains two folders by default, where:
+O desafio trata-se de reproduzir um dos projetos que foi criado durante a aula.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Créditos DIO
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+[![GitHub](https://img.shields.io/badge/github-000?style=for-the-badge&logo=github)](https://github.com/digitalinnovationone/lab-padroes-projeto-java)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Meu contato
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-111?style=for-the-badge&logo=linkedin&logoColor=0E76A8)](https://www.linkedin.com/in/bruno-angelo-089a62243/)
 
-## Dependency Management
+[![GitHub](https://img.shields.io/badge/github-111?style=for-the-badge&logo=github)](https://github.com/BrunoAngelo12)
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+[![gmail](https://img.shields.io/badge/bruno.trabalhos@outlook.com-111?style=for-the-badge&logo=microsoft-outlook)](https://github.com/BrunoAngelo12)
